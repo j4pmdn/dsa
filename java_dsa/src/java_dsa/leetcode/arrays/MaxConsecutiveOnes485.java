@@ -11,7 +11,7 @@ public class MaxConsecutiveOnes485 {
                 count = 0;
             } else {
                 count++;
-                max = Math.max(max, count);
+                max = count > max ? count : max;
             }
         }
         return max;

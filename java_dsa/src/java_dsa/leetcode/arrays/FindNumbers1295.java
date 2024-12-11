@@ -16,6 +16,8 @@ public class FindNumbers1295 {
 		Therefore only 12 and 7896 contain an even number of digits.
 		
 		-> Tìm số chữ số của 1 chữ số
+		  -> số chữ số = chữ số / 10
+		  -> số chữ số = log10(n) + 1
 	 */
 	
 	public static void main(String[] args) {

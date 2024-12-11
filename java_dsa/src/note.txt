@@ -19,6 +19,15 @@
 			
 ==============================Singly Linked List=================
 
+#LinkedList
+Algorithm: Floyd's Cycle Detection
+
+================================STACK - QUEUE========
+Queue - hàng đợi: là 1 cấu trúc dữ liệu hoạt động theo nguyên tắc FIFO(First In First Out: vào trước ra trước)
+-> Thường sử dụng cho thuật toán BFS(Breadth-First-Search)
+
+Stack - ngăn xếp(cái cốc): là 1 cấu trúc dữ liệu hoạt động theo nguyên tắc LIFO(Last In First Out: vào sau ra trước)
+-> Thường sử dụng cho thuật toán DFS(Depth-First-Search)
 				
 		
 		
