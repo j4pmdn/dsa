@@ -3,11 +3,14 @@ package java_dsa.sort;
 public class Sort {
 	
 	private static void printArray(int no, int[] a) {
-		System.out.printf("%d: ", no);
-		for (int i = 0; i < a.length; i++) {
-			System.out.printf("%d ", a[i]); 
-		}
-		System.out.println();
+//		System.out.printf("%d: ", no);
+//		for (int i = 0; i < a.length; i++) {
+//			System.out.printf("%d ", a[i]); 
+//		}
+//		System.out.println();
+		
+		
+		System.out.println("=======");        
 	}
 	
 	private static void bubleSort(int [] a) {
@@ -63,12 +66,12 @@ public class Sort {
 		}
 	}
 	
-	public static void main(String[] args) {
-		int[] a = {5, 3, 2, 7, 8, 1, 2};
-//		int [] b = {1, 2, 3, 4, 5, 6, 8, 7};
-//		bubleSort(a);
-//		insertionSort(a);
-		selectionSort(a);
-	}
+//	public static void main(String[] args) {
+//		int[] a = {5, 3, 2, 7, 8, 1, 2};
+////		int [] b = {1, 2, 3, 4, 5, 6, 8, 7};
+////		bubleSort(a);
+////		insertionSort(a);
+//		selectionSort(a);
+//	}
 	
 }
